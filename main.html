@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid" id="balanceWidget">
+      <h1>Balance is:</h1><h2 id="balance"></h2>
+    </div>
+    <span>
+    <div class="container-fluid" id="depositWidget">
+      <input type="number" class="container-fluid" placeholder="Enter an amount" id="depositAmount">
+      <button onclick="deposit()" class="btn btn-success">Deposit</button>
+    </div>
+    <div class="container-fluid" id="withdrawWidget">
+      <input type="number" class="container-fluid" placeholder="Enter an amount" id="withdrawAmount">
+      <button onclick="withdraw()" class="btn btn-danger">Withdraw</button>
+    </div>
+    </span>
+    <div id="transactionHistory">
+      <h1>Transaction History</h1>
+      <ul id="transactionList">
+      </ul>
+    </div>
+  </body>
+</html>
