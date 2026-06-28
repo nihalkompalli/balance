@@ -1,0 +1,37 @@
+#balanceWidget, #depositWidget, #withdrawWidget{
+  background-color:lightblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+#transactionList ul{
+  list-style:none;
+  /*add a scrollbar when it gets too big*/
+  overflow:auto;
+  /*how big it can get before the scrollbar appears*/
+  max-height:250px;
+}
+span{
+  display: flex;
+}
+#depositWidget, #withdrawWidget{
+  text-align:center;
+}
+#depositWidget button, #withdrawWidget button{
+  margin-top: 10px
+}
+.withdrawnLi{
+  background-color:#ffa8a8;
+  padding:10px;
+  margin-top:10px;
+  color:red;
+  border-radius:10px;
+}
+.depositedLi{
+  background-color:#a8ffa8;
+  padding:10px;
+  margin-top:10px;
+  color:green;
+  border-radius:10px;
+}
